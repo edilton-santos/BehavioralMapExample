@@ -1,5 +1,5 @@
 # BehavioralMapExample
-Folder **Neo4J APOC Configuration** stores the APOC API configuration file.
+The folder **Neo4J APOC Configuration** stores the APOC API configuration file.
 
 **Neo4J and APOC configuration.pdf** file describe how to create a local database and APOC API configuration process.
 

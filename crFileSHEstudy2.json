@@ -1,0 +1,165 @@
+{
+"imported_packages":["com.she.core.listener"],
+"relationships":[{"relationship_type":"Requires","feature_name":"listener"}],
+"name":"presence",
+"type":"Sensor",
+"version":"1.0.0",
+"status":"Ativo",
+"exported_packages":["com.she.core.feature.presence"]
+}
+
+
+{
+"relationships":[
+	{"relationship_type":"Reads","feature_name":"temperature"},
+	{"relationship_type":"Controls","feature_name":"airConditioner"},
+	{"relationship_type":"Requires","feature_name":"airConditioner"},
+	{"relationship_type":"Requires","feature_name":"temperature"},
+	{"relationship_type":"Requires","feature_name":"listener"}],
+"imported_packages":["com.she.core.feature.airConditioner","com.she.core.feature.temperature","com.she.core.listener"],
+"name":"climateController",
+"type":"Controller",
+"version":"1.0.0",
+"status":"Ativo",
+"exported_packages":["com.she.core.feature.climateController"]
+}
+
+
+{
+"relationships":[
+	{"relationship_type":"Reads","feature_name":"luminosity"},
+	{"relationship_type":"Reads","feature_name":"presence"},
+	{"relationship_type":"Controls","feature_name":"lamp"},
+	{"relationship_type":"Requires","feature_name":"listener"},
+	{"relationship_type":"Requires","feature_name":"lamp"},
+	{"relationship_type":"Requires","feature_name":"presence"},
+	{"relationship_type":"Requires","feature_name":"luminosity"}],
+"imported_packages":["com.she.core.listener","com.she.core.feature.lamp","com.she.core.feature.presence","com.she.core.feature.luminosity"],
+"name":"lampController",
+"type":"Controller",
+"version":"1.0.0",
+"status":"Ativo",
+"exported_packages":["com.she.core.feature.lampController"]
+}
+
+
+{
+"imported_packages":["com.she.core.listener"],
+"relationships":[{"relationship_type":"Requires","feature_name":"listener"}],
+"name":"water",
+"type":"Sensor",
+"version":"1.0.0",
+"status":"Ativo",
+"exported_packages":["com.she.core.feature.water"]
+}
+
+
+{
+"imported_packages":["com.she.core.listener"],
+"relationships":[{"relationship_type":"Requires","feature_name":"listener"}],
+"name":"luminosity",
+"type":"Sensor",
+"version":"1.0.0",
+"status":"Ativo",
+"exported_packages":["com.she.core.feature.luminosity"]
+}
+
+
+{
+"imported_packages":["com.she.core.listener"],
+"relationships":[{"relationship_type":"Requires","feature_name":"listener"}],
+"name":"temperature",
+"type":"Sensor",
+"version":"1.0.0",
+"status":"Ativo",
+"exported_packages":["com.she.core.feature.temperature"]
+}
+
+
+{
+"imported_packages":["com.she.core.loader","com.she.core.listener","com.she.core.installer"],
+"relationships":[
+	{"relationship_type":"Requires","feature_name":"loader"},
+	{"relationship_type":"Requires","feature_name":"listener"},
+	{"relationship_type":"Requires","feature_name":"installer"}],
+"name":"manager",
+"type":"Core",
+"version":"1.0.0",
+"status":"Ativo",
+"exported_packages":["com.she.core.manager"]
+}
+
+
+{
+"imported_packages":["com.she.core.listener"],
+"relationships":[
+	{"relationship_type":"Requires","feature_name":"listener"},
+	{"relationship_type":"Reads","feature_name":"temperature"},
+	{"relationship_type":"Reads","feature_name":"presence"},
+	{"relationship_type":"Reads","feature_name":"climateController"},
+	{"relationship_type":"Reads","feature_name":"airConditioner"},
+	{"relationship_type":"Reads","feature_name":"lampController"},
+	{"relationship_type":"Reads","feature_name":"water"},
+	{"relationship_type":"Reads","feature_name":"luminosity"},
+	{"relationship_type":"Reads","feature_name":"lamp"}],
+"name":"presentation",
+"type":"Core",
+"version":"1.0.0",
+"status":"Ativo",
+"exported_packages":["com.she.core.presentation.layer","com.she.core.presentation.view"]
+}
+
+
+{
+"imported_packages":["com.she.core.listener"],
+"relationships":[{"relationship_type":"Requires","feature_name":"listener"}],
+"name":"airConditioner",
+"type":"Actuator",
+"version":"1.0.0",
+"status":"Ativo",
+"exported_packages":["com.she.core.feature.airConditioner"]
+}
+
+
+{
+"imported_packages":[""],
+"relationships":[{"relationship_type":"","feature_name":""}],
+"name":"installer",
+"type":"Core",
+"version":"1.0.0",
+"status":"Ativo",
+"exported_packages":["com.she.core.installer"]
+}
+
+
+{
+"imported_packages":[""],
+"relationships":[{"relationship_type":"","feature_name":""}],
+"name":"loader",
+"type":"Core",
+"version":"1.0.0",
+"status":"Ativo",
+"exported_packages":["com.she.core.loader"]
+}
+
+
+{
+"imported_packages":[""],
+"relationships":[{"relationship_type":"","feature_name":""}],
+"name":"listener",
+"type":"Core",
+"version":"1.0.0",
+"status":"Ativo",
+"exported_packages":["com.she.core.listener"]
+}
+
+
+{
+"relationships":[{"relationship_type":"Requires","feature_name":"listener"}],
+"imported_packages":["com.she.core.listener"],
+"name":"lamp",
+"type":"Actuator",
+"version":"1.0.0",
+"status":"Ativo",
+"exported_packages":["com.she.core.feature.lamp"]
+}

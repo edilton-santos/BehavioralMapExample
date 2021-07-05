@@ -14,3 +14,10 @@ Scripts available in the folder **Behavioral Map scripts**:
 - **look-for-extraneous-connector-between-controllers-and-sensors.cypher**: Used to look for Extraneous Connector between Controllers and Sensors in the Behavioral Map.
 - **get-all-features-in-the-map.cypher**: Used to get all features and their relationship on the map.
 - **delete-the-graph.cypher**: Used to delete all maps in the database.
+
+**How to use the Behavioral Map**: 
+- Execute the script in the file import-cr-file-and-create-the-behavioral-map.cypher to import the CR file and create the map.
+- To look for Hub-Like Dependency smell, execute the script hub-like-dependency.cypher.
+- To look for Extraneous Connector smell, execute the script  extraneous-connector.cypher or look-for-extraneous-connector-between-controllers-and-sensors.cypher.
+- To see all features and their relationship on the map, execute the script get-all-features-in-the-map.cypher.
+- To delete the map, execute the delete-the-graph.cypher.

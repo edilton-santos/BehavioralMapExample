@@ -3,6 +3,14 @@
 Before running the examples, you need to install Neo4J Desktop. You can do the **download** the Neo4J Desktop on this website https://neo4j.com/download/?ref=try-neo4j-lp.
 
 The folder **Neo4J APOC Configuration** stores the APOC API configuration file.
-**Neo4J and APOC configuration.pdf** file describe how to create a local database and APOC configuration process.
+**Neo4J and APOC configuration.pdf** file describes how to create a local database and APOC configuration process.
 
-We provide two Configuration Rules (CR) files (**crFileSHEstudy1.json** and **crFileSHEstudy2.json**) that can be used to create the Behavioral Map and look for Architectural Smell using the scripts available in **Behavioral Map scripts.rtf**.
+We provide two Configuration Rules (CR) files (**crFileSHEstudy1.json**, and **crFileSHEstudy2.json**) that can be used to create the Behavioral Map and look for Architectural Smell using the scripts are available in the folder **Behavioral Map scripts**.
+
+Scripts available in the folder **Behavioral Map scripts**:
+- **import-cr-file-and-create-the-behavioral-map.cypher**: Script used to import CR file and create the Behavioral Map.
+- **hub-like-dependency.cypher**: Used to look for Hub-Like Dependency architectural smell in the configuration.
+- **extraneous-connector.cypher**: Used to look for Extraneous Connector architectural smell in the configuration.
+- **look-for-extraneous-connector-between-controllers-and-sensors.cypher**: Used to look for Extraneous Connector between Controllers and Sensors in the Behavioral Map.
+- **get-all-features-in-the-map.cypher**: Used to get all features and their relationship on the map.
+- **delete-the-graph.cypher**: Used to delete all maps in the database.

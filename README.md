@@ -17,6 +17,7 @@ Scripts available in the folder **Behavioral Map scripts**:
 
 **How to use the Behavioral Map**: 
 - Execute the script in the file import-cr-file-and-create-the-behavioral-map.cypher to import the CR file and create the map.
+- To look for Cyclic Ddependency smell, execute the script cyclic-dependency.cypher.
 - To look for Hub-Like Dependency smell, execute the script hub-like-dependency.cypher.
 - To look for Extraneous Connector smell, execute the script  extraneous-connector.cypher or look-for-extraneous-connector-between-controllers-and-sensors.cypher.
 - To see all features and their relationship on the map, execute the script get-all-features-in-the-map.cypher.

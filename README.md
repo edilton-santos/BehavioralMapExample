@@ -10,6 +10,7 @@ We provide two Configuration Rules (CR) files (**crFileSHEstudy1.json**, and **c
 Scripts available in the folder **Behavioral Map scripts**:
 - **import-cr-file-and-create-the-behavioral-map.cypher**: Script used to import CR file and create the Behavioral Map.
 - **hub-like-dependency.cypher**: Used to look for Hub-Like Dependency architectural smell in the configuration.
+- **cyclic-dependency.cypher**: Used to look for Cyclic Ddependency smell in the configuration.
 - **extraneous-connector.cypher**: Used to look for Extraneous Connector architectural smell in the configuration.
 - **look-for-extraneous-connector-between-controllers-and-sensors.cypher**: Used to look for Extraneous Connector between Controllers and Sensors in the Behavioral Map.
 - **get-all-features-in-the-map.cypher**: Used to get all features and their relationship on the map.

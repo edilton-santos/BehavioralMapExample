@@ -4,7 +4,7 @@
 "name":"presence",
 "type":"Sensor",
 "version":"1.0.0",
-"status":"Ativo",
+"status":"Active",
 "exported_packages":["com.she.core.feature.presence"]
 }
 
@@ -20,7 +20,7 @@
 "name":"climateController",
 "type":"Controller",
 "version":"1.0.0",
-"status":"Ativo",
+"status":"Active",
 "exported_packages":["com.she.core.feature.climateController"]
 }
 
@@ -38,7 +38,7 @@
 "name":"lampController",
 "type":"Controller",
 "version":"1.0.0",
-"status":"Ativo",
+"status":"Active",
 "exported_packages":["com.she.core.feature.lampController"]
 }
 
@@ -49,7 +49,7 @@
 "name":"water",
 "type":"Sensor",
 "version":"1.0.0",
-"status":"Ativo",
+"status":"Active",
 "exported_packages":["com.she.core.feature.water"]
 }
 
@@ -60,7 +60,7 @@
 "name":"luminosity",
 "type":"Sensor",
 "version":"1.0.0",
-"status":"Ativo",
+"status":"Active",
 "exported_packages":["com.she.core.feature.luminosity"]
 }
 
@@ -71,7 +71,7 @@
 "name":"temperature",
 "type":"Sensor",
 "version":"1.0.0",
-"status":"Ativo",
+"status":"Active",
 "exported_packages":["com.she.core.feature.temperature"]
 }
 
@@ -85,7 +85,7 @@
 "name":"manager",
 "type":"Core",
 "version":"1.0.0",
-"status":"Ativo",
+"status":"Active",
 "exported_packages":["com.she.core.manager"]
 }
 
@@ -102,10 +102,10 @@
 	{"relationship_type":"Reads","feature_name":"water"},
 	{"relationship_type":"Reads","feature_name":"luminosity"},
 	{"relationship_type":"Reads","feature_name":"lamp"}],
-"name":"presentation",
+"name":"presentation layer",
 "type":"Core",
 "version":"1.0.0",
-"status":"Ativo",
+"status":"Active",
 "exported_packages":["com.she.core.presentation.layer","com.she.core.presentation.view"]
 }
 
@@ -116,7 +116,7 @@
 "name":"airConditioner",
 "type":"Actuator",
 "version":"1.0.0",
-"status":"Ativo",
+"status":"Active",
 "exported_packages":["com.she.core.feature.airConditioner"]
 }
 
@@ -127,7 +127,7 @@
 "name":"installer",
 "type":"Core",
 "version":"1.0.0",
-"status":"Ativo",
+"status":"Active",
 "exported_packages":["com.she.core.installer"]
 }
 
@@ -138,7 +138,7 @@
 "name":"loader",
 "type":"Core",
 "version":"1.0.0",
-"status":"Ativo",
+"status":"Active",
 "exported_packages":["com.she.core.loader"]
 }
 
@@ -149,7 +149,7 @@
 "name":"listener",
 "type":"Core",
 "version":"1.0.0",
-"status":"Ativo",
+"status":"Active",
 "exported_packages":["com.she.core.listener"]
 }
 
@@ -160,6 +160,6 @@
 "name":"lamp",
 "type":"Actuator",
 "version":"1.0.0",
-"status":"Ativo",
+"status":"Active",
 "exported_packages":["com.she.core.feature.lamp"]
 }

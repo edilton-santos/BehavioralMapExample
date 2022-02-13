@@ -1,8 +1,9 @@
 // Import CR file and create the Behavioral Map
 // Change the file path to local where you saved the CR file
 CALL apoc.load.json("file:///crFileSHEstudy1.json") YIELD value
-CALL apoc.create.node(['Feature',value.type], {name:value.name, exported_packages:value.exported_packages, 
-imported_packages:value.imported_packages, version:value.version, status:value.status, type:value.type}) YIELD node
+CALL apoc.create.node(['Feature',value.type], {name:value.name, friendly_name:value.friendly_name, 
+exported_packages:value.exported_packages, imported_packages:value.imported_packages, version:value.version, 
+status:value.status, type:value.type}) YIELD node
 MERGE (f:Feature {name: node.name})
 WITH value, node, f
 UNWIND value.relationships AS relation

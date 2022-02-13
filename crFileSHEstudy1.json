@@ -10,7 +10,7 @@
 "name":"presentation layer",
 "type":"Core",
 "version":"1.0.0",
-"status":"Ativo",
+"status":"Active",
 "exported_packages":["com.she.core.presentation.layer","com.she.core.presentation.view"]
 }
 
@@ -28,7 +28,7 @@
 "name":"lampController",
 "type":"Controller",
 "version":"1.0.0",
-"status":"Ativo",
+"status":"Active",
 "exported_packages":["com.she.core.feature.lampController"]
 }
 
@@ -41,7 +41,7 @@
 "name":"luminosity",
 "type":"Sensor",
 "version":"1.0.0",
-"status":"Ativo",
+"status":"Active",
 "exported_packages":["com.she.core.feature.luminosity"]
 }
 
@@ -52,7 +52,7 @@
 "name":"listener",
 "type":"Core",
 "version":"1.0.0",
-"status":"Ativo",
+"status":"Active",
 "exported_packages":["com.she.core.listener"]
 }
 
@@ -67,7 +67,7 @@
 "name":"manager",
 "type":"Core",
 "version":"1.0.0",
-"status":"Ativo",
+"status":"Active",
 "exported_packages":["com.she.core.manager"]
 }
 
@@ -78,7 +78,7 @@
 "name":"presence",
 "type":"Sensor",
 "version":"1.0.0",
-"status":"Ativo",
+"status":"Active",
 "exported_packages":["com.she.core.feature.presence"]
 }
 
@@ -89,7 +89,7 @@
 "name":"installer",
 "type":"Core",
 "version":"1.0.0",
-"status":"Ativo",
+"status":"Active",
 "exported_packages":["com.she.core.installer"]
 }
 
@@ -100,7 +100,7 @@
 "name":"lamp",
 "type":"Actuator",
 "version":"1.0.0",
-"status":"Ativo",
+"status":"Active",
 "exported_packages":["com.she.core.feature.lamp"]
 }
 
@@ -111,6 +111,6 @@
 "name":"loader",
 "type":"Core",
 "version":"1.0.0",
-"status":"Ativo",
+"status":"Active",
 "exported_packages":["com.she.core.loader"]
 }

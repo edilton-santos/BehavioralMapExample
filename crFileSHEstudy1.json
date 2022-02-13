@@ -7,6 +7,7 @@
     {"relationship_type":"Reads","feature_name":"presence"},
     {"relationship_type":"Reads","feature_name":"lamp"}
    ],
+"friendly_name":"Presentation Layer",
 "name":"presentation layer",
 "type":"Core",
 "version":"1.0.0",
@@ -25,6 +26,7 @@
 	{"relationship_type":"Requires","feature_name":"luminosity"}
    ],
 "imported_packages":["com.she.core.listener","com.she.core.feature.lamp","com.she.core.feature.presence","com.she.core.feature.luminosity"],
+"friendly_name":"Lamp Controller",
 "name":"lampController",
 "type":"Controller",
 "version":"1.0.0",
@@ -38,6 +40,7 @@
 "relationships":[
 	{"relationship_type":"Requires","feature_name":"listener"}
    ],
+"friendly_name":"Luminosity",	
 "name":"luminosity",
 "type":"Sensor",
 "version":"1.0.0",
@@ -49,6 +52,7 @@
 {
 "imported_packages":[""],
 "relationships":[{"relationship_type":"","feature_name":""}],
+"friendly_name":"Listener",
 "name":"listener",
 "type":"Core",
 "version":"1.0.0",
@@ -64,6 +68,7 @@
 	{"relationship_type":"Requires","feature_name":"listener"},
 	{"relationship_type":"Requires","feature_name":"installer"}
       ],
+"friendly_name":"Manager",
 "name":"manager",
 "type":"Core",
 "version":"1.0.0",
@@ -75,6 +80,7 @@
 {
 "imported_packages":["com.she.core.listener"],
 "relationships":[{"relationship_type":"Requires","feature_name":"listener"}],
+"friendly_name":"Presence",
 "name":"presence",
 "type":"Sensor",
 "version":"1.0.0",
@@ -86,6 +92,7 @@
 {
 "imported_packages":[""],
 "relationships":[{"relationship_type":"","feature_name":""}],
+"friendly_name":"Installer",
 "name":"installer",
 "type":"Core",
 "version":"1.0.0",
@@ -97,6 +104,7 @@
 {
 "relationships":[{"relationship_type":"Requires","feature_name":"listener"}],
 "imported_packages":["com.she.core.listener"],
+"friendly_name":"Lamp",
 "name":"lamp",
 "type":"Actuator",
 "version":"1.0.0",
@@ -108,6 +116,7 @@
 {
 "imported_packages":[""],
 "relationships":[{"relationship_type":"","feature_name":""}],
+"friendly_name":"Loader",
 "name":"loader",
 "type":"Core",
 "version":"1.0.0",
